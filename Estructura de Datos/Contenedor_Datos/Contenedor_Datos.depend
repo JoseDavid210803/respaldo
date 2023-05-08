@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1674967064 source:d:\estructura de datos\contenedor_datos\main.cpp
+	<iostream>
+	<windows.h>
+	<clocale>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1676310526 source:e:\estructura de datos\clase\celda_entero.cpp
+	"celda_entero.h"
+
+1676310860 e:\estructura de datos\clase\celda_entero.h
+
+1676312126 source:e:\estructura de datos\clase\main.cpp
+	<iostream>
+	<string>
+	"celda_entero.h"
+

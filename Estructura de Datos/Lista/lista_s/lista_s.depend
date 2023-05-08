@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1679941846 source:e:\estructura de datos\lista\lista_s\lista_s.cpp
+	"lista_s.h"
+
+1679940376 e:\estructura de datos\lista\lista_s\lista_s.h
+
+1679942390 source:e:\estructura de datos\lista\lista_s\main.cpp
+	<iostream>
+	"lista_s.h"
+
+1680142728 source:d:\estructura de datos\lista\lista_s\main.cpp
+	<iostream>
+	"lista_s.h"
+
+1680142728 d:\estructura de datos\lista\lista_s\lista_s.h
+

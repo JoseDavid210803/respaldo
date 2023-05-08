@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1680144898 source:d:\estructura de datos\listas\lista\main.cpp
+	<iostream>
+	<wchar.h>
+
