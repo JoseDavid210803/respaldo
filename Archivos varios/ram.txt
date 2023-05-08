@@ -1,0 +1,43 @@
+always @ (posedge LE) begin
+    if (LE == 1'b0) 
+	begin
+        	Datos <= RAM[Dir];
+    	end 
+
+	else if (LE == 1'b1)
+	begin
+        	RAM[Dir] <= DatosE;
+    	end
+end
+///////////////////////////////////////////
+`timescale 1ns/1ns
+
+module RAMTB();
+
+reg [31:0] DatosETB;
+reg [5:0] DirTB; //Direccion
+reg LETB; //Selector
+
+wire [31:0] DatoSTB;
+
+	RAM DUV(.DatosE(DatosETB), .Dir(DirTB), .LE(LETB), .DatoS(DatoSTB));
+
+initial
+	begin
+
+	LETB = 1'b1;
+	DirTB = 6'd62;
+	DatosETB = 32'd7777;
+	#100;
+
+	LETB = 1'b0;
+	DirTB = 6'd10;
+	#100;
+
+	LETB = 1'b1;
+	DirTB = 6'd62;
+	#100;
+
+	$stop;
+	end
+endmodule

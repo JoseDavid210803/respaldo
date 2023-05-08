@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1669960958 source:c:\users\santi\desktop\putamadre otro semestre con sabrina\practica 2\main.cpp
+	<iostream>
+	<ctime>
+	<stdlib.h>
+	<locale.h>
+	<windows.h>
+	<conio.h>
+	<clocale>
+

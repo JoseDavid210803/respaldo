@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1670188208 source:c:\users\santi\desktop\otro semestre con sabrina\pruebas\main.cpp
+	<iostream>
+	<stdlib.h>
+	<locale.h>
+	<cstring>
+	<vector>
+
